@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background{
+    background-color: black;
+}
+
+.background .title .heading{
+    color: white;
+}
+
+.image .picture {
+    height: 300px;
+    width: 300px;
+}
+
+.text p {  
+    font-size: 30px;
+    color: rgb(11, 214, 116);
+    font-style: italic;
+    font-weight: 800;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(17, 217, 200);
+}
