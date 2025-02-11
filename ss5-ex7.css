@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.background{
+    background-color: aliceblue;
+}
+
+.background .table .heading {
+    color: white;
+    background-color: blue;
+}
+
+.table{
+    text-align: center;
+}
+
+table{
+    width: 1400px;
+    border-collapse: collapse;
+}
+
+td, th {
+    height: 50px;
+    width: 100px;
+}
+
+ tr:nth-child(odd){
+    background-color: white;
+}
+
+.view{
+
+    background-color: rgb(16, 210, 16);
+}
+
+.update{
+    background-color: yellow;
+}
+
+.delete{
+    background-color: red;
+}
+
+.view{
+    padding: 4px;
+    color: white;
+}
+
+.update{
+    padding: 4px;
+}
+
+.delete{
+    padding: 4px;
+    color: white;
+}
